@@ -243,3 +243,45 @@ p { margin: 0; }
   .farm { padding-top: 56px; padding-bottom: 56px; }
   .footer-cols { justify-content: flex-start; }
 }
+
+/* ---------- Added by tech lead (2026-10-03): steps, inner pages, forms ---------- */
+.steps { list-style: none; margin: 0; padding: 0; }
+.hp { position: absolute !important; left: -5000px !important; }
+
+.page-head { padding-top: 64px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 20px; max-width: 760px; }
+.page-head--center { align-items: center; text-align: center; margin: 0 auto; padding-bottom: 96px; }
+.page-head--center .actions { justify-content: center; }
+
+.form-wrap { padding-bottom: 80px; }
+.form-card {
+  max-width: 760px; background: var(--paper-raised); border: 2px solid var(--ink);
+  padding: 32px; display: flex; flex-direction: column; gap: 20px;
+}
+.field { display: flex; flex-direction: column; gap: 8px; border: 0; margin: 0; padding: 0; min-width: 0; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.field input, .field textarea {
+  width: 100%; min-height: 48px; padding: 12px 14px;
+  border: 2px solid var(--ink); border-radius: var(--radius-sm);
+  background: #fff; color: var(--ink); font-family: var(--font-sans); font-size: 16px;
+}
+.field textarea { resize: vertical; }
+.qty-row {
+  display: grid; grid-template-columns: 1fr 110px; align-items: center; gap: 12px;
+  padding: 14px 16px; border: 2px solid var(--ink); background: var(--paper);
+}
+.qty-row--chicken { border-left: 10px solid var(--barn-red); }
+.qty-row--duck { border-left: 10px solid var(--duck-blue); }
+.qty-row strong { display: block; font-family: var(--font-display); font-size: 22px; line-height: 28px; }
+.qty-row span { color: var(--ink-muted); font-size: 15px; }
+.total { font-size: 17px; }
+.form-error { color: var(--barn-red); font-weight: 700; display: none; }
+.form-error.show { display: block; }
+
+.prose { max-width: 760px; padding-bottom: 80px; display: flex; flex-direction: column; gap: 16px; font-size: 17px; line-height: 27px; }
+.prose h2 { font-size: 28px; line-height: 34px; margin-top: 16px; }
+
+@media (max-width: 640px) {
+  .form-card { padding: 20px; }
+  .field-row { grid-template-columns: 1fr; }
+  .page-head { padding-top: 40px; }
+}

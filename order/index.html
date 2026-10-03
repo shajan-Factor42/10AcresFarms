@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Eggs for Delivery | 10 Acre Farms</title>
+<meta name="description" content="Order cage-free, free-range chicken eggs ($5/dozen) and duck eggs ($10/dozen) for delivery any day in Gwinnett County and Atlanta. Pay on delivery.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://10acresfarms.com/order/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="10 Acre Farms">
+<meta property="og:title" content="Order Eggs for Delivery | 10 Acre Farms">
+<meta property="og:description" content="Order cage-free, free-range chicken eggs ($5/dozen) and duck eggs ($10/dozen) for delivery any day in Gwinnett County and Atlanta. Pay on delivery.">
+<meta property="og:url" content="https://10acresfarms.com/order/">
+<!-- Swap for a real farm photo (assets/img/og-image.jpg, 1200x630) when one exists. -->
+<meta property="og:image" content="https://10acresfarms.com/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="theme-color" content="#9E2B25">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&amp;family=Fraunces:opsz,wght@9..144,700;9..144,900&amp;family=Libre+Franklin:wght@400;600;700&amp;display=swap">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<!-- ANALYTICS: GA4 tag goes here (DECISIONS.md D-012). Not installed yet. -->
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="fresh-bar on-dark">
+  <span class="dot" aria-hidden="true"></span>
+  <span class="label">Now delivering</span>
+  <span class="msg">Chicken and duck eggs delivered any day across Gwinnett County and Atlanta.</span>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="../" aria-label="10 Acre Farms home">
+      <img src="../assets/img/logo-wordmark.svg" alt="10 Acre Farms" width="108" height="48">
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../#eggs">Our eggs</a>
+      <a href="../#delivery">Delivery</a>
+      <a href="../#farm">Our farm</a>
+      <a href="../#list">Egg list</a>
+      <a class="btn btn--red btn--sm" href="../order/" data-track="order_click">Order eggs</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="wrap page-head">
+    <span class="label label--pasture">Order eggs</span>
+    <h1>Order fresh eggs.</h1>
+    <div class="furrow" aria-hidden="true"><span></span><span></span><span></span></div>
+    <p class="lede">Delivered any day across Gwinnett County and Atlanta. Send your request and we'll confirm by text or email. You pay when your eggs arrive. Nothing is charged online.</p>
+  </section>
+
+  <section class="wrap form-wrap">
+    <form id="order-form" class="form-card" action="https://formsubmit.co/shajanthomas12@gmail.com" method="post" data-thanks="../thank-you/">
+      <input type="hidden" name="_subject" value="New egg order - 10 Acre Farms">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://10acresfarms.com/thank-you/">
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <fieldset class="field">
+        <legend class="label">What would you like? (dozens)</legend>
+        <div class="qty-row qty-row--chicken"><label for="chicken"><strong>Chicken eggs</strong><span>$5 per dozen</span></label><input id="chicken" type="number" name="Chicken eggs (dozen)" min="0" max="20" value="1" inputmode="numeric" data-qty data-price="5"></div>
+        <div class="qty-row qty-row--duck"><label for="duck"><strong>Duck eggs</strong><span>$10 per dozen</span></label><input id="duck" type="number" name="Duck eggs (dozen)" min="0" max="20" value="0" inputmode="numeric" data-qty data-price="10"></div>
+        <p class="total">Estimated total: <strong id="order-total">$5</strong> <span class="muted">(we'll confirm when we reply)</span></p>
+        <p id="order-error" class="form-error" role="alert">Please choose at least one dozen.</p>
+      </fieldset>
+      <div class="field"><label class="label" for="address">Delivery address</label><input id="address" type="text" name="Delivery address" autocomplete="street-address" placeholder="Street, city, ZIP" required></div>
+      <div class="field-row">
+        <div class="field"><label class="label" for="name">Your name</label><input id="name" type="text" name="Name" autocomplete="name" required></div>
+        <div class="field"><label class="label" for="phone">Phone</label><input id="phone" type="tel" name="Phone" autocomplete="tel" required></div>
+      </div>
+      <div class="field"><label class="label" for="o-email">Email</label><input id="o-email" type="email" name="email" autocomplete="email" required></div>
+      <div class="field"><label class="label" for="when">Best day or time (optional)</label><input id="when" type="text" name="Preferred delivery day or time" placeholder="e.g. Saturday morning"></div>
+      <div class="field"><label class="label" for="notes">Anything else? (optional)</label><textarea id="notes" name="Notes" rows="4"></textarea></div>
+      <button class="btn btn--red" type="submit">Send order request</button>
+      <p class="fine muted">This is a request, not a payment. We deliver in Gwinnett County and Atlanta. See our <a href="../privacy/">privacy note</a>.</p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="footer-top">
+      <img class="badge" src="../assets/img/badge-reverse.svg" alt="10 Acre Farms — Farm fresh eggs, Gwinnett County, GA" width="132" height="132">
+      <div class="footer-cols">
+        <nav class="footer-col" aria-label="Shop">
+          <span class="label">Shop</span>
+          <a href="../#eggs">Chicken eggs</a>
+          <a href="../#eggs">Duck eggs</a>
+          <a href="../order/" data-track="order_click">Order eggs</a>
+        </nav>
+        <nav class="footer-col" aria-label="About">
+          <span class="label">About</span>
+          <a href="../#farm">Our farm</a>
+          <a href="../#delivery">Delivery</a>
+          <a href="../privacy/">Privacy</a>
+        </nav>
+        <div class="footer-col">
+          <span class="label">Say hello</span>
+          <!-- TODO(owner): add farm email (mailto: link) and social links (Facebook / Instagram) when ready. -->
+          <span>Lawrenceville, Georgia</span>
+          <span>Delivering across Gwinnett County &amp; Atlanta</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-rule"></div>
+    <div class="footer-bottom">
+      <span>Safe handling instructions: to prevent illness from bacteria, keep eggs refrigerated, cook eggs until yolks are firm, and cook foods containing eggs thoroughly.</span>
+      <span>&copy; 2026 10 Acre Farms</span>
+    </div>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
