@@ -1,4 +1,4 @@
-# 10acrefarms.com — working notes
+# 10acresfarms.com — working notes
 
 Small family farm in Gwinnett County, GA selling cage-free, free-range chicken and duck eggs.
 

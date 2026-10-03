@@ -8,7 +8,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://10acrefarms.com"
+SITE = "https://10acresfarms.com"
 errors, warns = [], []
 BANNED = ["organic", "pasture-raised", "pasture raised", "hormone-free", "antibiotic-free", "certified humane"]
 
