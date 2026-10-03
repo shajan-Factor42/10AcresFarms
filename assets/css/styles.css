@@ -155,7 +155,7 @@ p { margin: 0; }
 .product--chicken .product__band { background: var(--barn-red); color: var(--paper); }
 .product--duck .product__band { background: var(--duck-blue); color: var(--ink); }
 .product .photo, .product .photo--placeholder { border-width: 0 0 2px 0; padding: 16px 24px; }
-.product .photo { padding: 0; }
+.product .photo { padding: 0; height: auto; flex-shrink: 0; }
 .product__body { padding: 24px; display: flex; flex-direction: column; gap: 16px; flex-grow: 1; }
 .product__body h3 { font-size: 30px; line-height: 36px; }
 .product__buy {
