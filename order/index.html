@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Fresh Eggs | Pickup or Delivery | 10 Acre Farms</title>
+<meta name="description" content="Request cage-free, free-range chicken or duck eggs from 10 Acre Farms. Farm pickup or local delivery in Gwinnett County. Pay when you get them.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://10acrefarms.com/order/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="10 Acre Farms">
+<meta property="og:title" content="Order Fresh Eggs | Pickup or Delivery | 10 Acre Farms">
+<meta property="og:description" content="Request cage-free, free-range chicken or duck eggs from 10 Acre Farms. Farm pickup or local delivery in Gwinnett County. Pay when you get them.">
+<meta property="og:url" content="https://10acrefarms.com/order/">
+<meta property="og:image" content="https://10acrefarms.com/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+<!-- ANALYTICS: GA4 tag goes here (DECISIONS.md D-012). Not installed yet. -->
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="../" aria-label="10 Acre Farms home"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#eef4ee"/><path d="M20 8c-6 0-10 9-10 15a10 10 0 0 0 20 0c0-6-4-15-10-15z" fill="#fff" stroke="#2f6b3f" stroke-width="2"/><circle cx="20" cy="24" r="4.2" fill="#f2b33d"/></svg><span>10 Acre Farms</span></a>
+    <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav id="site-nav" class="nav" aria-label="Main">
+      <a href="../our-farm/">Our Farm</a><a href="../eggs/">Our Eggs</a><a href="../blog/">Blog</a><a href="../contact/">Contact</a>
+      <a class="btn btn-primary btn-sm" href="../order/">Order Eggs</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Order Eggs</span>
+    <h1>Order fresh eggs</h1>
+    <p class="lede">Send us your request below. We'll confirm price and timing by text or email. You pay at pickup or delivery &mdash; nothing is charged online.</p>
+  </div>
+</section>
+<section style="padding-top:20px">
+  <div class="wrap" style="max-width:780px">
+    <div class="form-card">
+      <form id="order-form" class="form" action="https://formsubmit.co/shajanthomas12@gmail.com" method="POST" data-thanks="../thank-you/">
+        <input type="hidden" name="_subject" value="New egg order request - 10 Acre Farms">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://10acrefarms.com/thank-you/">
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <fieldset class="field">
+          <legend>What would you like? <span class="hint">(dozens)</span></legend>
+          <div class="qty-row"><label for="chicken"><strong>Chicken eggs</strong><span>Cage-free, free-range &middot; per dozen</span></label><input id="chicken" type="number" name="Chicken eggs (dozen)" min="0" max="20" value="1" inputmode="numeric" data-qty></div>
+          <div class="qty-row"><label for="duck"><strong>Duck eggs</strong><span>Cage-free, free-range &middot; per dozen</span></label><input id="duck" type="number" name="Duck eggs (dozen)" min="0" max="20" value="0" inputmode="numeric" data-qty></div>
+          <p id="order-error" class="form-error" role="alert">Please choose at least one dozen.</p>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Pickup or delivery?</legend>
+          <div class="choice">
+            <label><input type="radio" name="Pickup or delivery" value="Farm pickup" checked> Farm pickup</label>
+            <label><input type="radio" name="Pickup or delivery" value="Local delivery"> Local delivery</label>
+          </div>
+        </fieldset>
+        <div class="field"><label for="address">Delivery address <span class="hint">(only if you chose delivery)</span></label><input id="address" type="text" name="Delivery address" autocomplete="street-address"></div>
+        <div class="row">
+          <div class="field"><label for="name">Your name</label><input id="name" type="text" name="Name" autocomplete="name" required></div>
+          <div class="field"><label for="phone">Phone <span class="hint">(for a quick text)</span></label><input id="phone" type="tel" name="Phone" autocomplete="tel" required></div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" name="email" autocomplete="email" required></div>
+        <div class="field"><label for="when">When would you like them? <span class="hint">(optional)</span></label><input id="when" type="text" name="Preferred day or time" placeholder="e.g. Saturday morning"></div>
+        <div class="field"><label for="notes">Anything else? <span class="hint">(optional)</span></label><textarea id="notes" name="Notes"></textarea></div>
+        <button class="btn btn-primary" type="submit">Send order request</button>
+        <p class="form-note">This is a request, not a payment. We'll contact you to confirm. See our <a href="../privacy/">privacy note</a>.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="../"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="#eef4ee"/><path d="M20 8c-6 0-10 9-10 15a10 10 0 0 0 20 0c0-6-4-15-10-15z" fill="#fff" stroke="#2f6b3f" stroke-width="2"/><circle cx="20" cy="24" r="4.2" fill="#f2b33d"/></svg><span>10 Acre Farms</span></a>
+        <p style="margin-top:14px;color:var(--ink-2);max-width:26em">Cage-free, free-range chicken and duck eggs from our family farm in Gwinnett County, Georgia.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul><li><a href="../our-farm/">Our Farm</a></li><li><a href="../eggs/">Our Eggs</a></li><li><a href="../blog/">Blog</a></li></ul>
+      </div>
+      <div>
+        <h2>Buy</h2>
+        <ul><li><a href="../order/">Order Eggs</a></li><li><a href="../contact/#wholesale">Wholesale</a></li><li><a href="../contact/">Contact Us</a></li></ul>
+      </div>
+      <div>
+        <h2>Info</h2>
+        <ul><li><a href="../privacy/">Privacy</a></li><li><a href="../sitemap.xml">Sitemap</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>&copy; <span id="year">2026</span> 10 Acre Farms. Gwinnett County, GA.</span><span>Cage-free &middot; Free-range &middot; Family-run</span></div>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer></script>
+</body>
+</html>
